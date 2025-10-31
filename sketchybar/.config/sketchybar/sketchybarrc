@@ -12,8 +12,8 @@ bar=(
   position=top
   height=40
   color=$BAR_COLOR
-  padding_left=42
-  padding_right=42
+  padding_left=32
+  padding_right=32
 )
 
 sketchybar --bar "${bar[@]}"
