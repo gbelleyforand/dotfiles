@@ -73,7 +73,7 @@ stow -D aerospace nvim sketchybar
 
 ## Theme System (Sketchybar)
 
-> ?? **Work in Progress**: The automatic theme switching system is still under development and currently very buggy. Manual theme switching is more reliable.
+> WARNING **Work in Progress**: The automatic theme switching system is still under development and currently very buggy. Manual theme switching is more reliable.
 
 The Sketchybar configuration includes an automatic theme switching system that responds to macOS system appearance changes.
 
@@ -95,13 +95,6 @@ The Sketchybar configuration includes an automatic theme switching system that r
    - `ITEM_ICON_COLOR` - Icon color
    - `ITEM_BORDER_COLOR` - Border color
    - `WORKSPACE_*_BORDER` - Aerospace workspace border colors
-
-**Manual theme switching:**
-
-```bash
-echo "gruvbox" > ~/.config/sketchybar/.theme
-sketchybar --reload
-```
 
 **Available themes:** `gruvbox`, `gruvbox-light`, `default`
 
