@@ -73,6 +73,8 @@ stow -D aerospace nvim sketchybar
 
 ## Theme System (Sketchybar)
 
+> ?? **Work in Progress**: The automatic theme switching system is still under development and currently very buggy. Manual theme switching is more reliable.
+
 The Sketchybar configuration includes an automatic theme switching system that responds to macOS system appearance changes.
 
 **How it works:**
@@ -108,5 +110,6 @@ sketchybar --reload
 - **YouTube Music player**: Only works for Arc browser, needs adaptation for other browsers
 - **Gruvbox-light theme**: Still a work in progress
 - **Theme system**: Does not support updating borders color
+- **Theme auto-switch**: Still a work in progress and very buggy
 - **Multi-monitor setup**: Aerospace space highlights in Sketchybar are janky and need polish
 - **Music player**: Sometimes displays incorrect information and needs polish
