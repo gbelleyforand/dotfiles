@@ -100,9 +100,14 @@ The Sketchybar configuration includes an automatic theme switching system that r
 
 ## Known Issues
 
-- **YouTube Music player**: Only works for Arc browser, needs adaptation for other browsers
-- **Gruvbox-light theme**: Still a work in progress
-- **Theme system**: Does not support updating borders color
-- **Theme auto-switch**: Still a work in progress and very buggy
-- **Multi-monitor setup**: Aerospace space highlights in Sketchybar are janky and need polish
-- **Music player**: Sometimes displays incorrect information and needs polish
+- **Theme System**
+  - Gruvbox-light theme is still a work in progress
+  - Does not support updating borders color
+  - Auto-switch is very buggy and unreliable
+
+- **Music Player**
+  - YouTube Music integration only works for Arc browser, needs adaptation for other browsers
+  - Sometimes displays incorrect information and needs polish
+
+- **Multi-monitor Setup**
+  - Aerospace space highlights in Sketchybar are janky and need polish
