@@ -1,7 +1,9 @@
 #!/bin/bash
 
+POSITION=$($PLUGIN_DIR/detect_notch.sh)
+
 # Initialization
-sketchybar --add item apple_music center
+sketchybar --add item apple_music $POSITION
 
 # Config
 APPLE_MUSIC_EVENT="com.apple.iTunes.playerInfo"
