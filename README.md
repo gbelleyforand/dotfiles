@@ -6,9 +6,9 @@ MacOS configuration files managed with [GNU Stow](https://www.gnu.org/software/s
 
 ```
 dotfiles/
-??? aerospace/      # Aerospace window manager config
-??? nvim/          # Neovim configuration
-??? sketchybar/    # Sketchybar config
+    aerospace/      # Aerospace window manager config
+    nvim/           # Neovim configuration
+    sketchybar/     # Sketchybar config
 ```
 
 ## Prerequisites
